@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name:  jupyter-application
+
+
+#PARA ALTERAR O NAMESPACE QUE VOCÊ DESEJA TRABALHAR!!
+    #kubectl config set-context --current --namespace=<nome-do-namespace>
